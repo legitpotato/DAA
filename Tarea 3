@@ -1,0 +1,19 @@
+Resumen de cada técnica:
+
+  Busqueda Exhaustiva (Recorre y busca la menor suma recorriendo el arreglo todas las posibles veces)
+  
+  Divide and conquer (Divide el arreglo y busca la menor suma de un par)
+    PSU = [10, 30, 50, 60, 5, 60]
+    PSUd1 = [10, 30, 50] PSUd2 = [60, 5, 60]
+    PSUdd1 = [10] PSUdd2 = [30] PSUdd3 = [50] PSUdd4 = [60] PSUdd5 = [5] PSUdd6 = [60]
+    
+  Greedy (Recorre y busca la suma más baja, compara y guarda la menor a medida que recorre)
+    
+  Backtracking, Brute force (*funciona mejor Greedy)
+    
+  Dynamic programming (Maximizar el puntaje obtenido borrando 2 preguntas consecutivas)
+  
+    [10, 30, 50, 60, 5, 60] 
+    N = 6
+    
+    
