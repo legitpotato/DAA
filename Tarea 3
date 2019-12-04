@@ -7,13 +7,21 @@ Resumen de cada técnica:
     PSUd1 = [10, 30, 50] PSUd2 = [60, 5, 60]
     PSUdd1 = [10] PSUdd2 = [30] PSUdd3 = [50] PSUdd4 = [60] PSUdd5 = [5] PSUdd6 = [60]
     
+    Conquer: Comparación mediante un recorrido/ciclo
+    
   Greedy (Recorre y busca la suma más baja, compara y guarda la menor a medida que recorre)
     
   Backtracking, Brute force (*funciona mejor Greedy)
     
   Dynamic programming (Maximizar el puntaje obtenido borrando 2 preguntas consecutivas)
   
-    [10, 30, 50, 60, 5, 60] 
-    N = 6
     
+    Ejemplo para PSU[]={10, 30, 50, 60, 5, 60} con N=6 preguntas:
     
+      Suma1: 40 para preguntas 1 y 2
+      Suma2: 80 para preguntas 2 y 3
+      ...
+      
+      Sumas posibles = N-1 = 5
+      
+      
