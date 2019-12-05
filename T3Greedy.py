@@ -19,3 +19,6 @@ def Puntaje(array):
                 j +=2
 
     return(total)
+
+array = [10, 30, 50, 60, 5, 60]
+print(Puntaje(array))
