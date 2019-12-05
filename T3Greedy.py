@@ -3,7 +3,7 @@ def Puntaje(array):
         return(0)
 
     if len(array) == 2:
-        return(array[0]+array[1]
+        return(array[0]+array[1])
 
     else:
         min = 0
@@ -19,4 +19,3 @@ def Puntaje(array):
                 j +=2
 
     return(total)
-
