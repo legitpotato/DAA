@@ -25,3 +25,10 @@ Resumen de cada técnica:
       Sumas posibles = N-1 = 5
       
       
+      PRUEBA:
+        array = [10, 30, 50, 60, 5, 60]
+        PuntajeEXH(array)
+        array = [60, 5, 60, 50, 30, 10]
+
+      
+      
