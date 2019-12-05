@@ -8,16 +8,17 @@ def Puntaje(array):
     else:
         min = 0
         pos = 0
-        for i in len(array):
+        for i in range(len(array)):
             if min < array[i] + array[i+1]:
-                if array[i] =! array[(len(array)-1)]
+                if array[i] =! array[(len(array)-1)]:
                     pos = i
-        for j in len(array):
+        for j in range(len(array)):
             if j =! pos:
                 total += array[i]
             else:
                 j +=2
 
+    print(total)
     return(total)
 
 array = [10, 30, 50, 60, 5, 60]
